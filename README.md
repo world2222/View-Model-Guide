@@ -8,7 +8,7 @@ First let's talk about the life cycle.
 There're many steps on the life cycle and when we launch the app and get to the screen. It'll start the life cycle of the screen.  
 And here, for example, after you launched the app and screen is showed up, what happen if you rotate your phone?
 
-## The life cycle get reset and starts again!!
+## The life cycle resets and starts again!!
 
 So, what's the problem here?? Let's assume that we wrote a code like this.
 ```kotlin
