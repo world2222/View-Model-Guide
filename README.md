@@ -55,7 +55,7 @@ class MainActivity : ComponentActivity() {
 ```
 So here, you can see "currenNumber" and "backgroudnColor" are declared with "remember" with "mutableStateOf" to keep its state even after I touched the buttons and the value has changed.  
 But what would happen if I rotate this phone?  
-It should keep its state cuz that's the reason why we used those features, to make it remember the state but take a look at here!  
+Our expectation would be like, it should keep its state cuz that's the reason why we used those features BUT take a look at here!  
 ***
 ![ezgif com-video-to-gif](https://github.com/world2222/View-Model-Guide/assets/52661837/3f3ef1d1-7ebd-4229-8120-a9920e7e7de7)  
 As you can see the number and background color reset as 0 and white!!  
